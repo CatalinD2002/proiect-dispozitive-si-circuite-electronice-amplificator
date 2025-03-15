@@ -1,0 +1,31 @@
+Roluri componente:
+Q3 și Q2 etaj diferențial de tip npn  etaj care amplifica in tensiune si curent
+Q7 si Q4 sarcina activa a etajului diferential, egaleaza curentii pe cele 2 ramuri ale acestuia, Q7 = referinta de oglinda/transistor dioda de tip PNP  iti permite sa iesi din etajul diferential asimetric, deci nu se injumatateste amplificarea etajului. REZISTOARELE R10 SI R11 se numesc rezistente de degenerare si au rol de stabilitate termica.
+QESR3 - QESR2 = al doilea etaj de amplificare in conexiune Darlington, reprezinta si elementul de reglaj serie. Amplifica in curent
+
+----------------------------------------------------
+ETAJELE DE AMPLIFICARE – pentru a functiona au nevoie de un curent constant
+Sursa de curent Q5 polarizeaza etajul diferential
+Curentul generat se realizeaza CU AJUTORUL diodei D2 care polarizeaza VBE5 si realizeaza o cadere de tensiune pe R31. 
+R32 ajuta la polarizarea si trecerea in conductie a diodei D2.
+
+-----------------------------------------------------
+Alimentarea se afla intre 0 V si 6.66 - 7.5 v - in functie de N (ground si VCC pe schema)
+-----------------------------------------------------
+-----------------------------------------------------
+Reactia negativa:
+E constituita din rezistentele R6, R12, R33, P1, R9, r34.
+Relatia de la iesire: vezi poza cu schema bloc
+
+---
+Referinta de tensiune de pe borna pozitiva a amplificatorului de eroare este reprezentata din dioda Zener D1, respectiv R29 si R30. Pe dioda Zener D1 cade o tensiune de 2.7 V, iar aceasta tensiune de 2.7 V este divizata prin R29 si R30 pana la 859 mV. Asadar, referinta de tensiune este egala cu aproximativ 859 mV.
+---
+==========
+Tranzistorul Qesr3-Qesr2 care reprezinta elementul de reglaj serie este un tranzistor de putere care poate mentine o disipare de putere, implicit un VCE marit, pentru a nu se arde.
+
+Formatiunea formata din Q6, RC2,3,4 are rolul de a limita o suprasarcina, adica un curent marit prin sarcina circuitului. Cu cat curentul creste, caderea de tensiune pe rezistente creste, ceea ce duce la deschiderea tranzistorului Q6, si prin comutarea sa in ON se opreste functionarea circuitului. In functionare normala, Q6 este OFF.
+
+======
+Prin modificarea valorii SET din potentiometrul P1: se schimba valoarea tensiunii de la iesire, conform schemei bloc. (dependenta formula de cele 2 rezistente).
+====
+rezistenta de sarcina este RS, conform cu N.

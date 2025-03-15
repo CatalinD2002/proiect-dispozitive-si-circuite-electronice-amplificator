@@ -1,0 +1,33 @@
+** Profile: "SCHEMATIC1-FACTOR STABILIZARE"  [ D:\P1s_2024\STAB_TST_10\STAB_TST_10-PSpiceFiles\SCHEMATIC1\FACTOR STABILIZARE.sim ] 
+
+** Creating circuit file "FACTOR STABILIZARE.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "d:/p1s_2023/modele_a1_lib/1n4148.lib" 
+.LIB "d:/p1s_2023/modele_a1_lib/bc807-25.lib" 
+.LIB "d:/p1s_2023/modele_a1_lib/bc817-25.lib" 
+.LIB "d:/p1s_2023/modele_a1_lib/bc846b.lib" 
+.LIB "d:/p1s_2023/modele_a1_lib/bc856b.lib" 
+.LIB "d:/p1s_2023/modele_a1_lib/bzx84c2v7.lib" 
+.LIB "d:/p1s_2023/modele_a1_lib/bzx84c5v1.lib" 
+.LIB "d:/p1s_2023/modele_a1_lib/irfr120npbf.lib" 
+.LIB "d:/p1s_2023/modele_a1_lib/mjd31cg.lib" 
+.LIB "d:/p1s_2023/modele_a1_lib/mjd32cg.lib" 
+.LIB "d:/p1s_2023/modele_a1_lib/mmbfj177lt1g.lib" 
+.LIB "d:/p1s_2023/modele_a1_lib/mmbfj309lt1g.lib" 
+.LIB "d:/p1s_2023/modele_a1_lib/opto.lib" 
+.LIB "d:/p1s_2023/modele_a1_lib/smls14bet.lib" 
+* From [PSPICE NETLIST] section of C:\Users\seby_\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN V_VCC 6.66 7.5 0.01 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

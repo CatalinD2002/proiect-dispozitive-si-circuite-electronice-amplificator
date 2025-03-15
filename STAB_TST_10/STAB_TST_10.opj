@@ -1,0 +1,98 @@
+(ExpressProject "STAB_TST_10"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\stab_tst_10.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\stab_tst_10-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\stab_tst_10-pspicefiles\schematic1\psf.sim"
+        (DisplayName "SCHEMATIC1-PSF")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\stab_tst_10-pspicefiles\schematic1\deriva termica.sim"
+        (DisplayName "SCHEMATIC1-DERIVA TERMICA")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\stab_tst_10-pspicefiles\schematic1\suprasarcina.sim"
+        (DisplayName "SCHEMATIC1-SUPRASARCINA")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\stab_tst_10-pspicefiles\schematic1\factor stabilizare.sim"
+        (DisplayName "SCHEMATIC1-FACTOR STABILIZARE")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\stab_tst_10-pspicefiles\schematic1\amplificare.sim"
+        (DisplayName "SCHEMATIC1-amplificare")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\stab_tst_10-pspicefiles\schematic1\psf.sim"))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (QBC846B
+      (FullPartName "QBC846B.Normal")
+      (LibraryName "D:\P1S_2023\AJF24 TST\MODELE_A1_LIB\BC846B.OLB")
+      (DeviceIndex "0"))
+    (Dbreak
+      (FullPartName "Dbreak.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C2V7
+      (FullPartName "BZX84-C2V7.Normal")
+      (LibraryName "D:\P1S_2023\AJF24 TST\MODELE_A1_LIB\BZX84C2V7.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\lenovo\Desktop\STAB_TST_10\stab_tst_10.dsn")
+      (Path "Design Resources"
+         "C:\Users\lenovo\Desktop\STAB_TST_10\stab_tst_10.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "C:\Users\lenovo\Desktop\STAB_TST_10\stab_tst_10.dsn" "SCHEMATIC1"
+         "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 413"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 78 1375 78 362")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\LENOVO\DESKTOP\STAB_TST_10\STAB_TST_10.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "lenovo"))

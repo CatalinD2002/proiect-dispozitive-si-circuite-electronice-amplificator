@@ -1,0 +1,25 @@
+\t (00:00:03) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:00:03)     Journal start - Sat Dec 14 16:02:19 2024
+\t (00:00:03)         Host=LENOVO-PC User=lenovo Pid=8884 CPUs=12
+\t (00:00:03) CmdLine= C:\Orcad cadence\tools\pcb\bin\allegro.exe -orcad
+\t (00:00:03) 
+\t (00:00:03) Starting new design...
+\i (00:00:04) trapsize 837
+\i (00:00:04) trapsize 817
+\i (00:00:04) trapsize 840
+\i (00:00:04) trapsize 861
+\i (00:00:04) trapsize 1468
+\i (00:00:04) signalintegrity 
+\i (00:00:06) open 
+\i (00:00:14) fillin "LAYOUT.brd"
+\t (00:00:14) Opening existing design...
+\i (00:00:15) trapsize 1373
+\d (00:00:15) Design opened: C:/Users/lenovo/Desktop/P1_2024_433C_Deacanu_Adrian_Catalin_SERS_10_OrCad/LAYOUT.brd
+\i (00:00:15) signalintegrity 
+\i (00:00:17) status 
+\i (00:00:17) signalintegrity 
+\i (00:00:19) setwindow form.status
+\i (00:00:19) FORM status done  
+\i (00:00:25) setwindow pcb
+\i (00:00:25) exit 
+\t (00:00:25)     Journal end - Sat Dec 14 16:02:40 2024
